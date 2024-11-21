@@ -14,7 +14,7 @@ export const Main = styled.main`
 
   @media(max-width: 480px) {
    
-    padding: 0 110px;
+    padding: 0 70px;
   }
   @media(max-width: 393px) {
     padding: 0 60px;
@@ -46,7 +46,7 @@ export const CardInfo = styled.div`
   @media(max-width: 480px) {
    
    min-width: 300px;
-   background-color: red;
+   
  }
   
 `;
