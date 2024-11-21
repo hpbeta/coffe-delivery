@@ -12,6 +12,15 @@ export const Main = styled.main`
     color: #272221;
   }
 
+  @media(max-width: 480px) {
+    width: 100%;
+    padding: 0 110px;
+  }
+  @media(max-width: 393px) {
+    width: 100%;
+    padding: 0 60px;
+    background-color: red;
+  }
   
 `;
 
@@ -32,11 +41,12 @@ export const CardInfo = styled.div`
   background-color: #f3f2f2;
   padding: 0px 15px;
 
-
-
   img {
     margin-top: -24px;
   }
+
+ 
+  
 `;
 
 export const Types = styled.p`
