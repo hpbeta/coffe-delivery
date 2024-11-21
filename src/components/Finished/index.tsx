@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import delivery from "../../assets/illustration.png";
+import delivery from '../../assets/Illustration.png';
 import {
   ClockIcon,
   ContainerFinished,
