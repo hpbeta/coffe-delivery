@@ -19,7 +19,7 @@ export const Main = styled.main`
 
   @media(max-width: 480px) {
    
-    padding: 0 85px;
+    padding: 0 80px;
   }
   @media(max-width: 393px) {
     padding: 0 60px;
