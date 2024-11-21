@@ -13,13 +13,11 @@ export const Main = styled.main`
   }
 
   @media(max-width: 480px) {
-    width: 100%;
+   
     padding: 0 110px;
   }
   @media(max-width: 393px) {
-    width: 100%;
     padding: 0 60px;
-    background-color: red;
   }
   
 `;
@@ -45,7 +43,11 @@ export const CardInfo = styled.div`
     margin-top: -24px;
   }
 
- 
+  @media(max-width: 480px) {
+   
+   min-width: 300px;
+   background-color: red;
+ }
   
 `;
 
