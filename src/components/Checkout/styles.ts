@@ -19,6 +19,11 @@ export const Main = styled.main`
     flex-direction: column;
     margin-right: 20px;
   }
+
+  @media(max-width: 480px) {
+    margin-right: 30px;
+    
+  }
 `;
 
 export const Title = styled.h3`
