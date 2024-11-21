@@ -21,7 +21,7 @@ export const Main = styled.main`
   }
 
   @media(max-width: 480px) {
-    margin-right: 30px;
+    margin-right: 55px;
     
   }
 `;
