@@ -10,11 +10,16 @@ export const Main = styled.main`
     margin-bottom: 34px;
     font-family: "Baloo 2", sans-serif;
     color: #272221;
+
+    @media(max-width: 480px) {
+   
+   margin-left: 40px;
+ }
   }
 
   @media(max-width: 480px) {
    
-    padding: 0 70px;
+    padding: 0 85px;
   }
   @media(max-width: 393px) {
     padding: 0 60px;
