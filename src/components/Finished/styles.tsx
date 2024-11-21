@@ -32,12 +32,22 @@ export const Title = styled.h2`
   font-size: 32px;
   color: #c47f17;
   font-family: "Baloo 2", sans-serif;
+
+  @media(max-width: 480px) {
+    margin-left: 12px;
+    
+  }
 `;
 
 export const Paragraph = styled.p`
   color: #403937;
   font-family: "Roboto", serif;
   margin-bottom: 40px;
+
+  @media(max-width: 480px) {
+    text-align: center;
+    
+  }
 `;
 
 export const ContainerInfo = styled.div`
